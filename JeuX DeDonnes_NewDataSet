@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan 25 15:32:59 2024
+
+@author: nicola beneito
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.io import arff
+
+import time
+from sklearn import cluster
+
+from sklearn.metrics import silhouette_score
+from sklearn.metrics import davies_bouldin_score
+from sklearn.metrics import calinski_harabasz_score
